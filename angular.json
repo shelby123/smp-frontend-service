@@ -136,5 +136,10 @@
       }
     }
   },
-  "defaultProject": "smp-front-end"
+  "defaultProject": "smp-front-end",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
